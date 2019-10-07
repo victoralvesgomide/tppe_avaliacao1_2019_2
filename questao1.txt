@@ -1,0 +1,11 @@
+a) A interface pública é um padrão do Java, enquanto que a interface publicada é um conceito abstrato. Toda interface publicada é pública, mas nem toda interface pública é publicada. 
+
+Interfaces publicadas não devem ser refatoradas pois estão disponíveis na Web e podem estar sendo implementadas por diversos usuários, inclusive usuários que você não conhece. Refatorá-las pode quebrar o código de todos os usuários que utilizam essa interface.
+
+b) São opostos. No mau cheiro de "Mudanças divergentes" uma classe sofre várias mudanças, enquanto que no mau cheiro de "Cirurgia com rifle" uma mudança afeta várias classes. Ambos violam a manutenibilidade, a organização e concisão do código.
+
+c) A afirmação é falsa. O objetivo de uma refatoração consiste em melhorar a legibilidade do código, mesmo que isso afete o desempenho.
+
+d) Deve-se implementar bons testes antes de efetuá-la. Assim, após refatorar, basta executar novamente os testes e verificar se eles continuam passando.
+
+
